@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package validator
 
@@ -6,4 +6,4 @@ func NotInstalled(toolName string) bool {
     return !Installed(toolName)
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

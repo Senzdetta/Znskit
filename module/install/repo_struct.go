@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package install
 
@@ -7,4 +7,4 @@ type Repo struct {
     CloneURL string `json:"clone_url"`
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

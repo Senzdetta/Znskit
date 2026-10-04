@@ -1,11 +1,11 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package main
 
 import (
     "os"
     "strings"
-    "github.com/Zeronetsec/Znskit/console"
+    "github.com/Senzdetta/Znskit/console"
 )
 
 func main() {
@@ -14,4 +14,4 @@ func main() {
     console.ZnsConsole(input)
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

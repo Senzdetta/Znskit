@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package search
 
@@ -14,4 +14,4 @@ type Repo struct {
     } `json:"license"`
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

@@ -1,12 +1,12 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package console
 
 import (
     "os"
     "strings"
-    "github.com/Zeronetsec/Znskit/module/install"
-    "github.com/Zeronetsec/Znskit/utils/invinput"
+    "github.com/Senzdetta/Znskit/module/install"
+    "github.com/Senzdetta/Znskit/utils/invinput"
 )
 
 type Install struct{}
@@ -32,4 +32,4 @@ func (c Install) Execute(args []string) {
     install.Clone(toolName, iFlags)
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

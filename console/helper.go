@@ -1,9 +1,9 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package console
 
 import (
-    "github.com/Zeronetsec/Znskit/module/help"
+    "github.com/Senzdetta/Znskit/module/help"
 )
 
 type Helper struct{}
@@ -11,4 +11,4 @@ func (c Helper) Execute(args []string) {
     help.Show()
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

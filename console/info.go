@@ -1,11 +1,11 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package console
 
 import (
     "os"
-    "github.com/Zeronetsec/Znskit/module/info"
-    "github.com/Zeronetsec/Znskit/utils/invinput"
+    "github.com/Senzdetta/Znskit/module/info"
+    "github.com/Senzdetta/Znskit/utils/invinput"
 )
 
 type Info struct{}
@@ -19,4 +19,4 @@ func (c Info) Execute(args []string) {
     info.Show(toolName)
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

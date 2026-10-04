@@ -1,3 +1,3 @@
-module github.com/Zeronetsec/Znskit
+module github.com/Senzdetta/Znskit
 
-go 1.27.0
+go 1.27.1

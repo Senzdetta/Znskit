@@ -1,11 +1,11 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package console
 
 import (
     "time"
     "fmt"
-    "github.com/Zeronetsec/Znskit/module/uwu"
+    "github.com/Senzdetta/Znskit/module/uwu"
 )
 
 type UWU struct{}
@@ -17,4 +17,4 @@ func (c UWU) Execute(args []string) {
     fmt.Println()
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

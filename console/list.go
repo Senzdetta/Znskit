@@ -1,9 +1,9 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package console
 
 import (
-    "github.com/Zeronetsec/Znskit/module/list"
+    "github.com/Senzdetta/Znskit/module/list"
 )
 
 type Lister struct{}
@@ -16,4 +16,4 @@ func (c Lister) Execute(args []string) {
     list.Show(isDetails)
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

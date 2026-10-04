@@ -1,9 +1,9 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package console
 
 import (
-    "github.com/Zeronetsec/Znskit/module/version"
+    "github.com/Senzdetta/Znskit/module/version"
 )
 
 type Version struct{}
@@ -11,4 +11,4 @@ func (c Version) Execute(args []string) {
     version.Show()
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

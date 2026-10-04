@@ -1,12 +1,12 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package console
 
 import (
     "os"
     "strings"
-    "github.com/Zeronetsec/Znskit/module/privinstall"
-    "github.com/Zeronetsec/Znskit/utils/invinput"
+    "github.com/Senzdetta/Znskit/module/privinstall"
+    "github.com/Senzdetta/Znskit/utils/invinput"
 )
 
 type PrivInstall struct{}
@@ -33,4 +33,4 @@ func (c PrivInstall) Execute(args []string) {
     privinstall.PrivClone(toolName, privDataDir, iFlags)
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

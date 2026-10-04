@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package utils
 
@@ -22,8 +22,8 @@ func CheckConnection() bool {
         },
     }
 
-    _, err := client.Get("https://github.com/Zeronetsec")
+    _, err := client.Get("https://github.com/Senzdetta")
     return err == nil
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

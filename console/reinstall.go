@@ -1,12 +1,12 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package console
 
 import (
     "os"
     "strings"
-    "github.com/Zeronetsec/Znskit/module/reinstall"
-    "github.com/Zeronetsec/Znskit/utils/invinput"
+    "github.com/Senzdetta/Znskit/module/reinstall"
+    "github.com/Senzdetta/Znskit/utils/invinput"
 )
 
 type Reinstall struct{}
@@ -39,4 +39,4 @@ func (c Reinstall) Execute(args []string) {
     reinstall.Execute(toolName, iFlags, uFlags)
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

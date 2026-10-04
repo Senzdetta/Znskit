@@ -1,11 +1,11 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package banner
 
 import (
     "embed"
     "fmt"
-    "github.com/Zeronetsec/Znskit/utils/color"
+    "github.com/Senzdetta/Znskit/utils/color"
 )
 
 //go:embed ascii/*.txt
@@ -27,4 +27,4 @@ func Show() {
     )
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

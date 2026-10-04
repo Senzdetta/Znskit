@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package getuiflag
 
@@ -7,4 +7,4 @@ type Repo struct {
     DefaultBranch string `json:"default_branch"`
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

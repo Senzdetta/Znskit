@@ -1,11 +1,11 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package console
 
 import (
     "os"
-    "github.com/Zeronetsec/Znskit/module/getuiflag"
-    "github.com/Zeronetsec/Znskit/utils/invinput"
+    "github.com/Senzdetta/Znskit/module/getuiflag"
+    "github.com/Senzdetta/Znskit/utils/invinput"
 )
 
 type Getuiflag struct{}
@@ -19,4 +19,4 @@ func (c Getuiflag) Execute(args []string) {
     getuiflag.Fetch(toolName)
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

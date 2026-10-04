@@ -1,10 +1,10 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package invinput
 
 import (
     "fmt"
-    "github.com/Zeronetsec/Znskit/utils/color"
+    "github.com/Senzdetta/Znskit/utils/color"
 )
 
 func MissingArgument() {
@@ -19,4 +19,4 @@ func MissingArgument() {
     )
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

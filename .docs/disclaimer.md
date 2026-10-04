@@ -6,8 +6,8 @@ Additionally, core structures, commands, and language configurations are highly 
 Read also: [.docs/why.md](why.md).
 
 ## Personal & Restricted Use
-Znskit is a personal automation tool strictly designed and tailored for managing **Zeronetsec** repositories. </br>
-It is not intended for general package management, nor is it optimized for third-party tools outside the Zeronetsec ecosystem.
+Znskit is a personal automation tool strictly designed and tailored for managing **Senzdetta** repositories. </br>
+It is not intended for general package management, nor is it optimized for third-party tools outside the Senzdetta ecosystem.
 
 ## No Warranty (As-Is)
 This software is provided "as is" without any warranty of any kind, either express or implied. </br>

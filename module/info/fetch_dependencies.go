@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package info
 
@@ -17,7 +17,7 @@ func fetchDependencies(toolName, branch string) string {
     for _, path := range paths {
         cleanPath := strings.TrimPrefix(path, "/")
         url := fmt.Sprintf(
-            "https://raw.githubusercontent.com/Zeronetsec/%s/%s/%s",
+            "https://raw.githubusercontent.com/Senzdetta/%s/%s/%s",
             toolName, branch, cleanPath,
         )
 
@@ -53,4 +53,4 @@ func fetchDependencies(toolName, branch string) string {
     return strings.Join(depsList, ", ")
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

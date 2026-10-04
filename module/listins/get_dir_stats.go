@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package listins
 
@@ -47,4 +47,4 @@ func getDirStats(dirPath string) (
     return files, folders, totalSize, true
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

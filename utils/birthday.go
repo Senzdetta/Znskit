@@ -1,11 +1,11 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package utils
 
 import (
     "fmt"
     "time"
-    "github.com/Zeronetsec/Znskit/utils/color"
+    "github.com/Senzdetta/Znskit/utils/color"
 )
 
 func Birthday() {
@@ -22,4 +22,4 @@ func Birthday() {
     }
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

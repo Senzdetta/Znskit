@@ -7,7 +7,7 @@
 </div>
 
 # Znskit
-Znskit is a personal automation CLI tool for managing Zeronetsec repositories.
+Znskit is a personal automation CLI tool for managing Senzdetta repositories.
 
 ## Features
 - Automate repository searching and listing.
@@ -24,7 +24,7 @@ The author is not responsible for any damage, data loss, or issues that may resu
 ## Installation
 Quick install:
 ```bash
-git clone https://github.com/Zeronetsec/Znskit
+git clone https://github.com/Senzdetta/Znskit
 bash Znskit/install.sh
 ```
 For more detailed installation and uninstallation instructions, see [.docs/install_and_uninstall.md](.docs/install_and_uninstall.md).
@@ -33,7 +33,7 @@ For more detailed installation and uninstallation instructions, see [.docs/insta
 ```bash
 znskit --search cli
 znskit --install chprompt --iflag --backup
-znskit --uninstall chprompt --uflag --home=/home/zeronetsec
+znskit --uninstall chprompt --uflag --home=/home/senzdetta
 znskit --list --details
 znskit --info comet
 ```

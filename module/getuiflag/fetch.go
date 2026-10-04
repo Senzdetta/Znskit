@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package getuiflag
 
@@ -8,8 +8,8 @@ import (
     "os/exec"
     "net/http"
     "encoding/json"
-    "github.com/Zeronetsec/Znskit/utils"
-    "github.com/Zeronetsec/Znskit/utils/color"
+    "github.com/Senzdetta/Znskit/utils"
+    "github.com/Senzdetta/Znskit/utils/color"
 )
 
 func Fetch(toolName string) {
@@ -22,7 +22,7 @@ func Fetch(toolName string) {
     }
 
     apiUrl := fmt.Sprintf(
-        "https://api.github.com/repos/Zeronetsec/%s",
+        "https://api.github.com/repos/Senzdetta/%s",
         toolName,
     )
 
@@ -37,7 +37,7 @@ func Fetch(toolName string) {
 
     req.Header.Set(
         "User-Agent",
-        "https://github.com/Zeronetsec/Znskit",
+        "https://github.com/Senzdetta/Znskit",
     )
 
     client := &http.Client{}
@@ -77,14 +77,14 @@ func Fetch(toolName string) {
     }
 
     rawUrl := fmt.Sprintf(
-        "https://raw.githubusercontent.com/Zeronetsec/%s/%s/.laction/output/uiflag_params.flg",
+        "https://raw.githubusercontent.com/Senzdetta/%s/%s/.laction/output/uiflag_params.flg",
         repo.Name, repo.DefaultBranch,
     )
 
     flgReq, _ := http.NewRequest("GET", rawUrl, nil)
     flgReq.Header.Set(
         "User-Agent",
-        "https://github.com/Zeronetsec/Znskit",
+        "https://github.com/Senzdetta/Znskit",
     )
 
     flgResp, err := client.Do(flgReq)
@@ -125,4 +125,4 @@ func Fetch(toolName string) {
     }
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

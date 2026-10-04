@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package listins
 
@@ -9,8 +9,8 @@ import (
     "path/filepath"
     "encoding/json"
     "net/http"
-    "github.com/Zeronetsec/Znskit/utils"
-    "github.com/Zeronetsec/Znskit/utils/color"
+    "github.com/Senzdetta/Znskit/utils"
+    "github.com/Senzdetta/Znskit/utils/color"
 )
 
 func Show() {
@@ -22,7 +22,7 @@ func Show() {
         os.Exit(1)
     }
 
-    url := "https://api.github.com/users/Zeronetsec/repos"
+    url := "https://api.github.com/users/Senzdetta/repos"
     req, err := http.NewRequest("GET", url, nil)
     if err != nil {
         fmt.Printf(
@@ -34,7 +34,7 @@ func Show() {
 
     req.Header.Set(
         "User-Agent",
-        "https://github.com/Zeronetsec/Znskit",
+        "https://github.com/Senzdetta/Znskit",
     )
 
     client := &http.Client{}
@@ -143,4 +143,4 @@ func Show() {
     }
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

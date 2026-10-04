@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package install
 
@@ -9,9 +9,9 @@ import (
     "path/filepath"
     "encoding/json"
     "net/http"
-    "github.com/Zeronetsec/Znskit/utils"
-    "github.com/Zeronetsec/Znskit/utils/color"
-    "github.com/Zeronetsec/Znskit/utils/validator"
+    "github.com/Senzdetta/Znskit/utils"
+    "github.com/Senzdetta/Znskit/utils/color"
+    "github.com/Senzdetta/Znskit/utils/validator"
 )
 
 func Clone(toolName string, iFlags []string) {
@@ -32,7 +32,7 @@ func Clone(toolName string, iFlags []string) {
     }
 
     apiUrl := fmt.Sprintf(
-        "https://api.github.com/repos/Zeronetsec/%s",
+        "https://api.github.com/repos/Senzdetta/%s",
         toolName,
     )
 
@@ -47,7 +47,7 @@ func Clone(toolName string, iFlags []string) {
 
     req.Header.Set(
         "User-Agent",
-        "https://github.com/Zeronetsec/Znskit",
+        "https://github.com/Senzdetta/Znskit",
     )
 
     client := &http.Client{}
@@ -169,4 +169,4 @@ func Clone(toolName string, iFlags []string) {
     _ = os.RemoveAll(targetDir)
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

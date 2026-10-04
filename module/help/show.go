@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package help
 
@@ -7,9 +7,9 @@ import (
     "fmt"
     "encoding/json"
     "io/fs"
-    "github.com/Zeronetsec/Znskit/utils"
-    "github.com/Zeronetsec/Znskit/utils/color"
-    "github.com/Zeronetsec/Znskit/utils/banner"
+    "github.com/Senzdetta/Znskit/utils"
+    "github.com/Senzdetta/Znskit/utils/color"
+    "github.com/Senzdetta/Znskit/utils/banner"
 )
 
 //go:embed metadata/*
@@ -70,4 +70,4 @@ func Show() {
     }
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

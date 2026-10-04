@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package listins
 
@@ -14,4 +14,4 @@ func getFileSize(filePath string) (string, bool) {
     return formatBytes(info.Size()), true
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

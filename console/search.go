@@ -1,12 +1,12 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package console
 
 import (
     "os"
     "strings"
-    "github.com/Zeronetsec/Znskit/module/search"
-    "github.com/Zeronetsec/Znskit/utils/invinput"
+    "github.com/Senzdetta/Znskit/module/search"
+    "github.com/Senzdetta/Znskit/utils/invinput"
 )
 
 type Search struct{}
@@ -20,4 +20,4 @@ func (c Search) Execute(args []string) {
     search.Searcher(keyword)
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

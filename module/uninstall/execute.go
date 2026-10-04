@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package uninstall
 
@@ -7,9 +7,9 @@ import (
     "os"
     "os/exec"
     "path/filepath"
-    "github.com/Zeronetsec/Znskit/utils"
-    "github.com/Zeronetsec/Znskit/utils/color"
-    "github.com/Zeronetsec/Znskit/utils/validator"
+    "github.com/Senzdetta/Znskit/utils"
+    "github.com/Senzdetta/Znskit/utils/color"
+    "github.com/Senzdetta/Znskit/utils/validator"
 )
 
 func Execute(toolName string, uFlags []string) {
@@ -62,4 +62,4 @@ func Execute(toolName string, uFlags []string) {
     }
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

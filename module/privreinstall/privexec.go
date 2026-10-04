@@ -1,12 +1,12 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package privreinstall
 
 import (
     "fmt"
-    "github.com/Zeronetsec/Znskit/module/privinstall"
-    "github.com/Zeronetsec/Znskit/module/uninstall"
-    "github.com/Zeronetsec/Znskit/utils/color"
+    "github.com/Senzdetta/Znskit/module/privinstall"
+    "github.com/Senzdetta/Znskit/module/uninstall"
+    "github.com/Senzdetta/Znskit/utils/color"
 )
 
 func PrivExec(toolName string, privDataDir string, iFlags []string, uFlags []string) {
@@ -19,4 +19,4 @@ func PrivExec(toolName string, privDataDir string, iFlags []string, uFlags []str
     privinstall.PrivClone(toolName, privDataDir, iFlags)
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

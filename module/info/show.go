@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package info
 
@@ -8,8 +8,8 @@ import (
     "strings"
     "encoding/json"
     "net/http"
-    "github.com/Zeronetsec/Znskit/utils"
-    "github.com/Zeronetsec/Znskit/utils/color"
+    "github.com/Senzdetta/Znskit/utils"
+    "github.com/Senzdetta/Znskit/utils/color"
 )
 
 func Show(toolName string) {
@@ -22,7 +22,7 @@ func Show(toolName string) {
     }
 
     apiUrl := fmt.Sprintf(
-        "https://api.github.com/repos/Zeronetsec/%s",
+        "https://api.github.com/repos/Senzdetta/%s",
         toolName,
     )
 
@@ -37,7 +37,7 @@ func Show(toolName string) {
 
     req.Header.Set(
         "User-Agent",
-        "https://github.com/Zeronetsec/Znskit",
+        "https://github.com/Senzdetta/Znskit",
     )
 
     client := &http.Client{}
@@ -152,4 +152,4 @@ func Show(toolName string) {
     )
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package listins
 
@@ -25,4 +25,4 @@ func formatBytes(bytes int64) string {
     return fmt.Sprintf("%.2f GB", gb)
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

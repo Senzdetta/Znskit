@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package color
 
@@ -15,4 +15,4 @@ const (
     PP = "\x1b[0;35m"
 )
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

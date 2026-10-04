@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package validator
 
@@ -6,7 +6,7 @@ import (
     "os"
     "strings"
     "path/filepath"
-    "github.com/Zeronetsec/Znskit/utils"
+    "github.com/Senzdetta/Znskit/utils"
 )
 
 func Installed(toolName string) bool {
@@ -68,4 +68,4 @@ func Installed(toolName string) bool {
     return true
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

@@ -1,17 +1,17 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package version
 
 import (
     "fmt"
-    "github.com/Zeronetsec/Znskit/utils/color"
+    "github.com/Senzdetta/Znskit/utils/color"
 )
 
 const (
     name = "Znskit"
     version = "v0.1.04102026"
-    creator = "Zeronetsec"
-    homepage = "https://github.com/Zeronetsec/Znskit"
+    creator = "Senzdetta"
+    homepage = "https://github.com/Senzdetta/Znskit"
 )
 
 func Show() {
@@ -36,4 +36,4 @@ func Show() {
     )
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

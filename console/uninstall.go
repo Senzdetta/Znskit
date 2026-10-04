@@ -1,12 +1,12 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package console
 
 import (
     "os"
     "strings"
-    "github.com/Zeronetsec/Znskit/module/uninstall"
-    "github.com/Zeronetsec/Znskit/utils/invinput"
+    "github.com/Senzdetta/Znskit/module/uninstall"
+    "github.com/Senzdetta/Znskit/utils/invinput"
 )
 
 type Uninstall struct{}
@@ -32,4 +32,4 @@ func (c Uninstall) Execute(args []string) {
     uninstall.Execute(toolName, uFlags)
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

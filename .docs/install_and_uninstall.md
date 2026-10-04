@@ -7,7 +7,7 @@
 
 ### Usage
 ```bash
-git clone https://github.com/Zeronetsec/Znskit
+git clone https://github.com/Senzdetta/Znskit
 bash Znskit/install.sh <option>
 ```
 

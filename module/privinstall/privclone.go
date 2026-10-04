@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Znskit
+// https://github.com/Senzdetta/Znskit
 
 package privinstall
 
@@ -9,9 +9,9 @@ import (
     "os/exec"
     "net/http"
     "path/filepath"
-    "github.com/Zeronetsec/Znskit/utils"
-    "github.com/Zeronetsec/Znskit/utils/color"
-    "github.com/Zeronetsec/Znskit/utils/validator"
+    "github.com/Senzdetta/Znskit/utils"
+    "github.com/Senzdetta/Znskit/utils/color"
+    "github.com/Senzdetta/Znskit/utils/validator"
 )
 
 func PrivClone(
@@ -45,19 +45,19 @@ func PrivClone(
     }
 
     repoURL := fmt.Sprintf(
-        "https://github.com/Zeronetsec/%s",
+        "https://github.com/Senzdetta/%s",
         toolName,
     )
 
     apiURL := fmt.Sprintf(
-        "https://api.github.com/repos/Zeronetsec/%s",
+        "https://api.github.com/repos/Senzdetta/%s",
         toolName,
     )
 
     req, _ := http.NewRequest("GET", apiURL, nil)
     req.Header.Set(
         "User-Agent",
-        "https://github.com/Zeronetsec/Znskit",
+        "https://github.com/Senzdetta/Znskit",
     )
 
     client := &http.Client{}
@@ -157,4 +157,4 @@ func PrivClone(
     _ = os.RemoveAll(tmpDir)
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta
