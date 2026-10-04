@@ -1,5 +1,3 @@
-<!-- https://github.com/Zeronetsec/Znskit -->
-
 # DISCLAIMER
 ## **Version 0.1 (Experimental Status)**
 This tool is currently in its early **v0.1** stage and is considered **unstable**. </br>
@@ -18,5 +16,3 @@ The author makes no guarantees regarding the stability, reliability, or compatib
 ## User Responsibility
 By using this tool, you acknowledge that you are doing so entirely at your own risk. </br>
 The author shall not be held liable for any damages, data loss, system misconfigurations, or broken dependencies caused directly or indirectly by the execution of this tool or its integrated setup scripts.
-
-<!-- Copyright (c) 2026 Zeronetsec -->

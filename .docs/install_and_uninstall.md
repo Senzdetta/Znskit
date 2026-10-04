@@ -1,5 +1,3 @@
-<!-- https://github.com/Zeronetsec/Znskit -->
-
 # Installation
 `install.sh` optional options (can be used together):
 - `--home=<path>`
@@ -27,5 +25,3 @@ bash Znskit/install.sh <option>
 export prefix="${PREFIX:-/usr}"
 bash $prefix/opt/znskit/uninstall.sh <option>
 ```
-
-<!-- Copyright (c) 2026 Zeronetsec -->
