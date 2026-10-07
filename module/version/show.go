@@ -9,7 +9,7 @@ import (
 
 const (
     name = "Znskit"
-    version = "v0.1.06102026"
+    version = "v0.1.07102026"
     developer = "Senzdetta"
     homepage = "https://github.com/Senzdetta/Znskit"
 )
