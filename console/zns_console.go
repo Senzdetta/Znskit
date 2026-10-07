@@ -17,7 +17,7 @@ func ZnsConsole(input string) {
     commands := map[string]Command{
         "--help": Helper{},
         "--version": Version{},
-        "--uwu": UWU{},
+        "--uwu": Uwu{},
         "--install": Install{},
         "--uninstall": Uninstall{},
         "--search": Search{},
