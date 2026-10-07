@@ -1,4 +1,4 @@
 bash
-golang
+golang::golang-go
 zip
 git
